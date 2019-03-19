@@ -9,7 +9,7 @@ Feel free modify these as you please by uploading the JSON file to [rpg-cards ge
 ## Attribution
 - Card templates were made with [Crobi's](https://github.com/crobi) [rpg-cards generator on Github](https://github.com/crobi/rpg-cards)
 - All text was sourced from the awesome [OWASP Foundation](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project) - [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
-- Meme images are sourced from various folks (each source URL is in the JSON file) and the use of these images is consider "Fair Use". 
+- Meme images are sourced from various folks (each source URL is in the JSON file) and the use of these images is considered "Fair Use". 
 
 ## License
 
