@@ -1,0 +1,148 @@
+[
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Broken Authentication",
+    "icon": "lock-picking",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-2",
+      "rule",
+      "picture | https://i.kym-cdn.com/photos/images/newsfeed/001/379/666/feb.jpg |128",
+      "text | Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities temporarily or permanently."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Injection",
+    "icon": "triple-needle",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-1",
+      "rule",
+      "picture | https://media.makeameme.org/created/sql-injection-sql.jpg |128",
+      "text | Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Sensitive Data Exposure",
+    "icon": "eyeball",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-3",
+      "rule",
+      "picture | https://www.bluefin.com/wp-content/uploads/2016/08/AustinPowers-encryption.jpg |",
+      "text | Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "XML External Entities (XXE)",
+    "icon": "wax-tablet",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-4",
+      "rule",
+      "picture | https://memegenerator.net/img/instances/56325298/when-i-was-your-age-xml-was-the-json.jpg | 128",
+      "text | Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks"
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Security Misconfiguration",
+    "icon": "wrecking-ball",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-6",
+      "rule",
+      "picture | https://blogs.salleurl.edu/sites/default/files/blogs/data-center-solutions/zu248.jpg |128",
+      "text | Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. "
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Cross-Site Scripting",
+    "icon": "crossed-bones",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-7",
+      "picture | https://memegenerator.net/img/instances/65805559/xss-vulnerabilities-i-suggest-you-hand-over-the-cookies-now.jpg | 112",
+      "text | XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites and more."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Broken Access Control",
+    "icon": "broken-wall",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-5",
+      "rule",
+      "picture | https://i.imgflip.com/27s16l.jpg | 128",
+      "text | Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users' accounts, view sensitive files, modify other users’ data, change access rights, etc."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": " Insecure Deserialization",
+    "icon": "scythe",
+    "icon_back": "",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-8",
+      "picture | https://memegenerator.net/img/instances/62210226/yall-got-anymore-of-that-remote-code-execution.jpg | 128",
+      "text | Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks. "
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Vulnerable Components",
+    "icon": "jester-hat",
+    "icon_back": "jester-hat",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-9",
+      "picture | https://www.trinustech.com/wp-content/uploads/2019/02/windows-10-cumulative-update-kb4090913-fails-to-install-causes-other-issues-520105-2.jpg | 112",
+      "text | Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts."
+    ],
+    "tags": [],
+    "background_image": ""
+  },
+  {
+    "count": 1,
+    "color": "black",
+    "title": "Insufficient Logging",
+    "icon": "burning-book",
+    "icon_back": "burning-book",
+    "contents": [
+      "subtitle | OWASP Top 10 - 2017 A-10",
+      "picture | https://memegenerator.net/img/instances/74814860/first-rule-of-incident-response-get-a-ram-image.jpg | 100",
+      "text | Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring."
+    ],
+    "tags": [],
+    "background_image": ""
+  }
+]
