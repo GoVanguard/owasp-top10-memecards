@@ -2,8 +2,8 @@
 =================================
 
 ## About
-OWASP Top 10 Meme Cards are just an ice-breaker prop to talk about security pratices in software development.
-The hope is to promote basic security awareness in kinda funny way when talking to developers.
+OWASP Top 10 Meme cards are just an ice-breaker prop to talk about security pratices in software development.
+The hope is to promote basic security awareness with humorous, relatable, simple examples when talking to developers.
 Feel free modify these as you please by uploading the JSON file to [rpg-cards generator](https://github.com/crobi/rpg-cards).
 
 ## Attribution
